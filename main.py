@@ -13,8 +13,10 @@ LANGUAGES = {
     'tr': 'turkish'
 }
 
+
 def removesuffix(self: str, suffix: str, /) -> str:
     return self[:-len(suffix)]
+
 
 def translate_all_wavs(path: str):
     os.chdir(path)
